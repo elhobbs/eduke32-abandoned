@@ -1,0 +1,17 @@
+Mapster32 2.0.0devel r(?) (32-bit) MSVC C++ build
+Compiled Oct  6 2015 21:33:54
+Windows 10 (build 10.0.10240)
+Initializing DirectDraw...
+Using C:/devl/eduke32/ for game data
+Configuration file not found, using defaults.
+Searching for game data...
+Found no recognized game data!
+Warning: could not find main data file "DUKE3D.GRP"!
+Loading "m32help.hlp"
+Error initializing integrated help: file "m32help.hlp" not found.
+Failed to open names.h
+Initializing DirectInput...
+  - Enumerating attached game controllers
+  - No game controllers found
+Uninitializing DirectInput...
+Initialized 24.0M cache

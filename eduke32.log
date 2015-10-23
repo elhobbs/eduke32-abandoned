@@ -1,0 +1,31 @@
+﻿Build started 10/22/2015 12:07:03 AM.
+     1>Project "C:\devl\eduke32\eduke32.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         nmake /f Makefile.msvc DEBUG=1 WINBITS=32 RENDERTYPE=SDL
+         
+         Microsoft (R) Program Maintenance Utility Version 14.00.23026.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         	cl /c /MT /J /nologo /Od /Zi   /Isource /Ibuild\include\msvc /Ibuild\include /Isource\jmact /Isource\jaudiolib\include /Isource\enet\include  /W2 /DUSE_OPENGL /DPOLYMER /DUSE_LIBPNG /DUSE_LIBVPX /DHAVE_VORBIS /TP  /Iplatform\Windows\include /Isource\jaudiolib\third-party\common\include /DRENDERTYPESDL=1 /DMIXERTYPEWIN=1 /DSDL_FRAMEWORK /DSDL_TARGET=2 /DDEBUGGINGAIDS /D "_CRT_SECURE_NO_DEPRECATE" /Fosource\obj/demo.obj source\demo.c
+         demo.c
+         	cl /c /MT /J /nologo /Od /Zi   /Isource /Ibuild\include\msvc /Ibuild\include /Isource\jmact /Isource\jaudiolib\include /Isource\enet\include  /W2 /DUSE_OPENGL /DPOLYMER /DUSE_LIBPNG /DUSE_LIBVPX /DHAVE_VORBIS /TP  /Iplatform\Windows\include /Isource\jaudiolib\third-party\common\include /DRENDERTYPESDL=1 /DMIXERTYPEWIN=1 /DSDL_FRAMEWORK /DSDL_TARGET=2 /DDEBUGGINGAIDS /D "_CRT_SECURE_NO_DEPRECATE" /Fosource\obj/global.obj source\global.c
+         global.c
+         	cl /c /MT /J /nologo /Od /Zi   /Isource /Ibuild\include\msvc /Ibuild\include /Isource\jmact /Isource\jaudiolib\include /Isource\enet\include  /W2 /DUSE_OPENGL /DPOLYMER /DUSE_LIBPNG /DUSE_LIBVPX /DHAVE_VORBIS /TP  /Iplatform\Windows\include /Isource\jaudiolib\third-party\common\include /DRENDERTYPESDL=1 /DMIXERTYPEWIN=1 /DSDL_FRAMEWORK /DSDL_TARGET=2 /DDEBUGGINGAIDS /D "_CRT_SECURE_NO_DEPRECATE" /Fobuild\obj/engine.obj build\src\engine.c
+         engine.c
+         	cl /c /MT /J /nologo /Od /Zi   /Isource /Ibuild\include\msvc /Ibuild\include /Isource\jmact /Isource\jaudiolib\include /Isource\enet\include  /W2 /DUSE_OPENGL /DPOLYMER /DUSE_LIBPNG /DUSE_LIBVPX /DHAVE_VORBIS /TP  /Iplatform\Windows\include /Isource\jaudiolib\third-party\common\include /DRENDERTYPESDL=1 /DMIXERTYPEWIN=1 /DSDL_FRAMEWORK /DSDL_TARGET=2 /DDEBUGGINGAIDS /D "_CRT_SECURE_NO_DEPRECATE" /Fobuild\obj/sdlayer.obj build\src\sdlayer.c
+         sdlayer.c
+     1>build\src\sdlayer.c(1719): error C2065: 'u8': undeclared identifier
+     1>build\src\sdlayer.c(1719): error C2065: 'src': undeclared identifier
+     1>build\src\sdlayer.c(1719): error C2062: type 'int' unexpected
+     1>build\src\sdlayer.c(1719): error C2143: syntax error: missing ';' before '{'
+     1>build\src\sdlayer.c(1719): error C2447: '{': missing function header (old-style formal list?)
+     1>build\src\sdlayer.c(1783): error C2065: 'u8': undeclared identifier
+     1>build\src\sdlayer.c(1783): error C2059: syntax error: ')'
+     1>NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.EXE"' : return code '0x2'
+         Stop.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: The command "nmake /f Makefile.msvc DEBUG=1 WINBITS=32 RENDERTYPE=SDL" exited with code 2.
+     1>Done Building Project "C:\devl\eduke32\eduke32.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.96
